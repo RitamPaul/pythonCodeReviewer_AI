@@ -9,8 +9,9 @@ genai.configure(api_key = key)
 #     st.write(model.name)
 
 sys_guide = '''
-            You are a code reviewer and you need to generate only potential bug report as well as fixed code
-            for every python code given by user.
+            You are a code reviewer and you need to generate only potential bug reports under the
+            heading of BUG REPORTS as well as fixed code under the heading of FIXED CODE for every
+            python code given by user.
             If the code is not in python programming language then kindly decline it and tell them to
             provide python code only for review.
             '''
