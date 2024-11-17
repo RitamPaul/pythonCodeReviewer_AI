@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-file = open("keys\geminiapi.txt")
+file = open("keys/geminiapi.txt")
 key = file.read()
 genai.configure(api_key = key)
 
